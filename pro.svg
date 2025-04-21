@@ -1,0 +1,418 @@
+<svg viewBox="0 0 1500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+  <!-- Keep your existing definitions -->
+  <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#2a2a72" />
+    <stop offset="100%" stop-color="#009ffd" />
+  </linearGradient>
+  <filter id="drop-shadow" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.3" />
+  </filter>
+  <clipPath id="profile-clip">
+    <circle cx="1175" cy="180" r="125" />
+  </clipPath>
+  
+    <!-- Add pattern for background image -->
+    <pattern id="bg-image" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="./meq.jpeg" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" />
+    </pattern>
+  </defs>
+  
+  <!-- Main background rectangle -->
+  <rect width="1500" height="500" fill="url(#bg-gradient)" />
+  
+  <!-- Grid pattern overlay -->
+  <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+    <path d="M 50 0 L 0 0 0 50" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  </pattern>
+  <rect width="1500" height="500" fill="url(#grid)" />
+  
+  <!-- Workspace elements -->
+  <!-- Code Editor -->
+  <rect x="50" y="100" width="450" height="300" rx="5" fill="#1e1e1e" filter="url(#drop-shadow)" />
+  <rect x="50" y="100" width="450" height="30" rx="5" fill="#333333" />
+  <circle cx="70" cy="115" r="5" fill="#ff605c" />
+  <circle cx="90" cy="115" r="5" fill="#ffbd44" />
+  <circle cx="110" cy="115" r="5" fill="#00ca4e" />
+  
+  <!-- Code content -->
+  <text x="70" y="160" font-family="monospace" font-size="14" fill="#61afef">function</text>
+  <text x="130" y="160" font-family="monospace" font-size="14" fill="#e06c75">buildNextProject</text>
+  <text x="270" y="160" font-family="monospace" font-size="14" fill="#abb2bf">()</text>
+  <text x="290" y="160" font-family="monospace" font-size="14" fill="#abb2bf">{</text>
+  
+  <text x="90" y="190" font-family="monospace" font-size="14" fill="#c678dd">const</text>
+  <text x="130" y="190" font-family="monospace" font-size="14" fill="#e5c07b">goals</text>
+  <text x="180" y="190" font-family="monospace" font-size="14" fill="#abb2bf">=</text>
+  <text x="200" y="190" font-family="monospace" font-size="14" fill="#abb2bf">[</text>
+  <text x="210" y="190" font-family="monospace" font-size="14" fill="#98c379">'Learn'</text>
+  <text x="270" y="190" font-family="monospace" font-size="14" fill="#abb2bf">,</text>
+  <text x="280" y="190" font-family="monospace" font-size="14" fill="#98c379">'Build'</text>
+  <text x="340" y="190" font-family="monospace" font-size="14" fill="#abb2bf">,</text>
+  <text x="350" y="190" font-family="monospace" font-size="14" fill="#98c379">'Share'</text>
+  <text x="410" y="190" font-family="monospace" font-size="14" fill="#abb2bf">];</text>
+  
+  <text x="90" y="220" font-family="monospace" font-size="14" fill="#c678dd">const</text>
+  <text x="130" y="220" font-family="monospace" font-size="14" fill="#e5c07b">success</text>
+  <text x="190" y="220" font-family="monospace" font-size="14" fill="#abb2bf">=</text>
+  <text x="210" y="220" font-family="monospace" font-size="14" fill="#c678dd">await</text>
+  <text x="250" y="220" font-family="monospace" font-size="14" fill="#61afef">ship</text>
+  <text x="280" y="220" font-family="monospace" font-size="14" fill="#abb2bf">(</text>
+  <text x="290" y="220" font-family="monospace" font-size="14" fill="#e06c75">'MVP'</text>
+  <text x="340" y="220" font-family="monospace" font-size="14" fill="#abb2bf">);</text>
+  
+  <text x="90" y="250" font-family="monospace" font-size="14" fill="#c678dd">return</text>
+  <text x="150" y="250" font-family="monospace" font-size="14" fill="#e06c75">growthGraph</text>
+  <text x="250" y="250" font-family="monospace" font-size="14" fill="#abb2bf">.</text>
+  <text x="260" y="250" font-family="monospace" font-size="14" fill="#61afef">elevate</text>
+  <text x="320" y="250" font-family="monospace" font-size="14" fill="#abb2bf">();</text>
+  
+  <text x="70" y="280" font-family="monospace" font-size="14" fill="#abb2bf">}</text>
+  
+  <text x="70" y="310" font-family="monospace" font-size="14" fill="#7a7a7a">// npm run elevate</text>
+  <text x="70" y="340" font-family="monospace" font-size="14" fill="#7a7a7a">// Building something amazing...</text>
+  
+  <!-- GitHub contribution graph - Based on real data from screenshot -->
+<rect x="530" y="80" width="400" height="180" rx="5" fill="#0d1117" filter="url(#drop-shadow)" />
+
+<!-- Header information -->
+<text x="550" y="105" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff">560 contributions in the last year</text>
+
+<!-- Month labels -->
+<text x="550" y="125" font-family="Arial, sans-serif" font-size="10" fill="#8b949e">Apr</text>
+<text x="585" y="125" font-family="Arial, sans-serif" font-size="10" fill="#8b949e">May</text>
+<text x="620" y="125" font-family="Arial, sans-serif" font-size="10" fill="#8b949e">Jun</text>
+<text x="655" y="125" font-family="Arial, sans-serif" font-size="10" fill="#8b949e">Jul</text>
+<text x="690" y="125" font-family="Arial, sans-serif" font-size="10" fill="#8b949e">Aug</text>
+<text x="725" y="125" font-family="Arial, sans-serif" font-size="10" fill="#8b949e">Sep</text>
+<text x="760" y="125" font-family="Arial, sans-serif" font-size="10" fill="#8b949e">Oct</text>
+<text x="795" y="125" font-family="Arial, sans-serif" font-size="10" fill="#8b949e">Nov</text>
+<text x="830" y="125" font-family="Arial, sans-serif" font-size="10" fill="#8b949e">Dec</text>
+<text x="865" y="125" font-family="Arial, sans-serif" font-size="10" fill="#8b949e">Jan</text>
+<text x="900" y="125" font-family="Arial, sans-serif" font-size="10" fill="#8b949e">Mar</text>
+<text x="935" y="125" font-family="Arial, sans-serif" font-size="10" fill="#8b949e">Apr</text>
+
+<!-- Day labels -->
+<text x="530" y="150" font-family="Arial, sans-serif" font-size="10" fill="#8b949e">Mon</text>
+<text x="530" y="185" font-family="Arial, sans-serif" font-size="10" fill="#8b949e">Wed</text>
+<text x="530" y="220" font-family="Arial, sans-serif" font-size="10" fill="#8b949e">Fri</text>
+
+<!-- Contribution grid - matching the pattern in the screenshot -->
+<g>
+  <!-- Row 1 (Mon) -->
+  <rect x="550" y="135" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="560" y="135" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="570" y="135" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="580" y="135" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="590" y="135" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="600" y="135" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="610" y="135" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="620" y="135" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="630" y="135" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="640" y="135" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="650" y="135" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="660" y="135" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="670" y="135" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="680" y="135" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="690" y="135" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="700" y="135" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="710" y="135" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="720" y="135" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="730" y="135" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="740" y="135" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="750" y="135" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="760" y="135" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="770" y="135" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="780" y="135" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="790" y="135" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="800" y="135" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="810" y="135" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="820" y="135" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="830" y="135" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="840" y="135" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="850" y="135" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="860" y="135" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="870" y="135" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="880" y="135" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="890" y="135" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="900" y="135" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="910" y="135" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="920" y="135" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="930" y="135" width="7" height="7" rx="1" fill="#39d353" />
+  
+  <!-- Row 2 (Tue) -->
+  <rect x="550" y="145" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="560" y="145" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="570" y="145" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="580" y="145" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="590" y="145" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="600" y="145" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="610" y="145" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="620" y="145" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="630" y="145" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="640" y="145" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="650" y="145" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="660" y="145" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="670" y="145" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="680" y="145" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="690" y="145" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="700" y="145" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="710" y="145" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="720" y="145" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="730" y="145" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="740" y="145" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="750" y="145" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="760" y="145" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="770" y="145" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="780" y="145" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="790" y="145" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="800" y="145" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="810" y="145" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="820" y="145" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="830" y="145" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="840" y="145" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="850" y="145" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="860" y="145" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="870" y="145" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="880" y="145" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="890" y="145" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="900" y="145" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="910" y="145" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="920" y="145" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="930" y="145" width="7" height="7" rx="1" fill="#161b22" />
+  
+  <!-- Row 3 (Wed) -->
+  <rect x="550" y="155" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="560" y="155" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="570" y="155" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="580" y="155" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="590" y="155" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="600" y="155" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="610" y="155" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="620" y="155" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="630" y="155" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="640" y="155" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="650" y="155" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="660" y="155" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="670" y="155" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="680" y="155" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="690" y="155" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="700" y="155" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="710" y="155" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="720" y="155" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="730" y="155" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="740" y="155" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="750" y="155" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="760" y="155" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="770" y="155" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="780" y="155" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="790" y="155" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="800" y="155" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="810" y="155" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="820" y="155" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="830" y="155" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="840" y="155" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="850" y="155" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="860" y="155" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="870" y="155" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="880" y="155" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="890" y="155" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="900" y="155" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="910" y="155" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="920" y="155" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="930" y="155" width="7" height="7" rx="1" fill="#0e4429" />
+  
+  <!-- Row 4 (Thu) -->
+  <rect x="550" y="165" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="560" y="165" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="570" y="165" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="580" y="165" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="590" y="165" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="600" y="165" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="610" y="165" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="620" y="165" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="630" y="165" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="640" y="165" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="650" y="165" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="660" y="165" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="670" y="165" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="680" y="165" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="690" y="165" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="700" y="165" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="710" y="165" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="720" y="165" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="730" y="165" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="740" y="165" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="750" y="165" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="760" y="165" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="770" y="165" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="780" y="165" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="790" y="165" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="800" y="165" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="810" y="165" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="820" y="165" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="830" y="165" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="840" y="165" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="850" y="165" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="860" y="165" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="870" y="165" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="880" y="165" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="890" y="165" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="900" y="165" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="910" y="165" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="920" y="165" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="930" y="165" width="7" height="7" rx="1" fill="#161b22" />
+  
+  <!-- Row 5 (Fri) -->
+  <rect x="550" y="175" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="560" y="175" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="570" y="175" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="580" y="175" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="590" y="175" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="600" y="175" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="610" y="175" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="620" y="175" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="630" y="175" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="640" y="175" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="650" y="175" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="660" y="175" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="670" y="175" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="680" y="175" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="690" y="175" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="700" y="175" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="710" y="175" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="720" y="175" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="730" y="175" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="740" y="175" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="750" y="175" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="760" y="175" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="770" y="175" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="780" y="175" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="790" y="175" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="800" y="175" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="810" y="175" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="820" y="175" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="830" y="175" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="840" y="175" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="850" y="175" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="860" y="175" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="870" y="175" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="880" y="175" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="890" y="175" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="900" y="175" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="910" y="175" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="920" y="175" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="930" y="175" width="7" height="7" rx="1" fill="#39d353" />
+  
+  <!-- Row 6 (Sat) -->
+  <rect x="550" y="185" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="560" y="185" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="570" y="185" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="580" y="185" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="590" y="185" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="600" y="185" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="610" y="185" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="620" y="185" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="630" y="185" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="640" y="185" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="650" y="185" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="660" y="185" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="670" y="185" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="680" y="185" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="690" y="185" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="700" y="185" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="710" y="185" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="720" y="185" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="730" y="185" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="740" y="185" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="750" y="185" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="760" y="185" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="770" y="185" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="780" y="185" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="790" y="185" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="800" y="185" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="810" y="185" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="820" y="185" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="830" y="185" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="840" y="185" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="850" y="185" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="860" y="185" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="870" y="185" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="880" y="185" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="890" y="185" width="7" height="7" rx="1" fill="#161b22" />
+  <rect x="900" y="185" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="910" y="185" width="7" height="7" rx="1" fill="#39d353" />
+  <rect x="920" y="185" width="7" height="7" rx="1" fill="#0e4429" />
+  <rect x="930" y="185" width="7" height="7" rx="1" fill="#39d353" />
+  
+  </g>
+
+  <!-- Growth graph -->
+  <rect x="530" y="260" width="280" height="140" rx="5" fill="#ffffff" filter="url(#drop-shadow)" />
+  <text x="550" y="290" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">Growth Metrics</text>
+  
+  <!-- Line chart -->
+  <polyline points="550,360 570,350 590,355 610,340 630,330 650,325 670,315 690,300 710,290 730,275 750,260" 
+            fill="none" stroke="#4C75F2" stroke-width="3" />
+  <circle cx="550" cy="360" r="3" fill="#4C75F2" />
+  <circle cx="570" cy="350" r="3" fill="#4C75F2" />
+  <circle cx="590" cy="355" r="3" fill="#4C75F2" />
+  <circle cx="610" cy="340" r="3" fill="#4C75F2" />
+  <circle cx="630" cy="330" r="3" fill="#4C75F2" />
+  <circle cx="650" cy="325" r="3" fill="#4C75F2" />
+  <circle cx="670" cy="315" r="3" fill="#4C75F2" />
+  <circle cx="690" cy="300" r="3" fill="#4C75F2" />
+  <circle cx="710" cy="290" r="3" fill="#4C75F2" />
+  <circle cx="730" cy="275" r="3" fill="#4C75F2" />
+  <circle cx="750" cy="260" r="3" fill="#4C75F2" />
+  
+  <!-- Sticky notes -->
+  <!-- Open Source -->
+  <g transform="translate(850, 120) rotate(5)">
+    <rect width="150" height="150" rx="5" fill="#FFD166" filter="url(#drop-shadow)" />
+    <text x="75" y="75" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333" text-anchor="middle" dominant-baseline="middle">Open Source</text>
+    <line x1="20" y1="95" x2="130" y2="95" stroke="#333" stroke-width="1" stroke-opacity="0.3" />
+    <line x1="20" y1="115" x2="130" y2="115" stroke="#333" stroke-width="1" stroke-opacity="0.3" />
+  </g>
+  
+  <!-- Mentorship -->
+  <g transform="translate(1020, 100) rotate(-3)">
+    <rect width="150" height="150" rx="5" fill="#06D6A0" filter="url(#drop-shadow)" />
+    <text x="75" y="75" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333" text-anchor="middle" dominant-baseline="middle">Mentorship</text>
+    <line x1="20" y1="95" x2="130" y2="95" stroke="#333" stroke-width="1" stroke-opacity="0.3" />
+    <line x1="20" y1="115" x2="130" y2="115" stroke="#333" stroke-width="1" stroke-opacity="0.3" />
+  </g>
+  
+  <!-- Growth -->
+  <g transform="translate(1190, 120) rotate(2)">
+    <rect width="150" height="150" rx="5" fill="#EF476F" filter="url(#drop-shadow)" />
+    <text x="75" y="75" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333" text-anchor="middle" dominant-baseline="middle">Growth</text>
+    <line x1="20" y1="95" x2="130" y2="95" stroke="#333" stroke-width="1" stroke-opacity="0.3" />
+    <line x1="20" y1="115" x2="130" y2="115" stroke="#333" stroke-width="1" stroke-opacity="0.3" />
+  </g>
+  
+  <!-- Shipping MVP -->
+  <g transform="translate(950, 250) rotate(-2)">
+    <rect width="150" height="150" rx="5" fill="#118AB2" filter="url(#drop-shadow)" />
+    <text x="75" y="75" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#fff" text-anchor="middle" dominant-baseline="middle">Shipping MVPs</text>
+    <line x1="20" y1="95" x2="130" y2="95" stroke="#fff" stroke-width="1" stroke-opacity="0.3" />
+    <line x1="20" y1="115" x2="130" y2="115" stroke="#fff" stroke-width="1" stroke-opacity="0.3" />
+  </g>
+  
+  <!-- Rocket -->
+  <g transform="translate(1150, 270)">
+    <!-- Rocket body -->
+    <path d="M25,50 L35,20 L45,50 Z" fill="#EF476F" />
+    <rect x="25" y="50" width="20" height="30" fill="#EF476F" />
+    <path d="M25,80 L20,90 L30,85 Z" fill="#FFD166" />
+    <path d="M45,80 L50,90 L40,85 Z" fill="#FFD166" />
+    <!-- Rocket window -->
+    <circle cx="35" cy="40" r="5" fill="#fff" />
+    <!-- Flame -->
+    <path d="M30,80 L35,100 L40,80 Z" fill="#FF9F1C" />
+  </g>
+  
+  <!-- Main title -->
+  <rect x="300" y="30" width="900" height="60" rx="5" fill="rgba(0,0,0,0.5)" />
+  <text x="750" y="70" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">Becoming Ibrahim – Building, Learning, Contributing</text>
+</svg>
