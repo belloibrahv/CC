@@ -37,13 +37,13 @@
   
   <!-- Code content -->
   <text x="70" y="160" font-family="monospace" font-size="14" fill="#61afef">function</text>
-  <text x="130" y="160" font-family="monospace" font-size="14" fill="#e06c75">buildNextProject</text>
-  <text x="270" y="160" font-family="monospace" font-size="14" fill="#abb2bf">()</text>
-  <text x="290" y="160" font-family="monospace" font-size="14" fill="#abb2bf">{</text>
+  <text x="150" y="160" font-family="monospace" font-size="14" fill="#e06c75">buildNextProject</text>
+  <text x="290" y="160" font-family="monospace" font-size="14" fill="#abb2bf">()</text>
+  <text x="310" y="160" font-family="monospace" font-size="14" fill="#abb2bf">{</text>
   
   <text x="90" y="190" font-family="monospace" font-size="14" fill="#c678dd">const</text>
-  <text x="130" y="190" font-family="monospace" font-size="14" fill="#e5c07b">goals</text>
-  <text x="180" y="190" font-family="monospace" font-size="14" fill="#abb2bf">=</text>
+  <text x="140" y="190" font-family="monospace" font-size="14" fill="#e5c07b">goals</text>
+  <text x="188" y="190" font-family="monospace" font-size="14" fill="#abb2bf">=</text>
   <text x="200" y="190" font-family="monospace" font-size="14" fill="#abb2bf">[</text>
   <text x="210" y="190" font-family="monospace" font-size="14" fill="#98c379">'Learn'</text>
   <text x="270" y="190" font-family="monospace" font-size="14" fill="#abb2bf">,</text>
@@ -53,12 +53,12 @@
   <text x="410" y="190" font-family="monospace" font-size="14" fill="#abb2bf">];</text>
   
   <text x="90" y="220" font-family="monospace" font-size="14" fill="#c678dd">const</text>
-  <text x="130" y="220" font-family="monospace" font-size="14" fill="#e5c07b">success</text>
-  <text x="190" y="220" font-family="monospace" font-size="14" fill="#abb2bf">=</text>
-  <text x="210" y="220" font-family="monospace" font-size="14" fill="#c678dd">await</text>
-  <text x="250" y="220" font-family="monospace" font-size="14" fill="#61afef">ship</text>
-  <text x="280" y="220" font-family="monospace" font-size="14" fill="#abb2bf">(</text>
-  <text x="290" y="220" font-family="monospace" font-size="14" fill="#e06c75">'MVP'</text>
+  <text x="140" y="220" font-family="monospace" font-size="14" fill="#e5c07b">success</text>
+  <text x="205" y="220" font-family="monospace" font-size="14" fill="#abb2bf">=</text>
+  <text x="220" y="220" font-family="monospace" font-size="14" fill="#c678dd">await</text>
+  <text x="270" y="220" font-family="monospace" font-size="14" fill="#61afef">ship</text>
+  <text x="300" y="220" font-family="monospace" font-size="14" fill="#abb2bf">(</text>
+  <text x="304" y="220" font-family="monospace" font-size="14" fill="#e06c75">'MVP'</text>
   <text x="340" y="220" font-family="monospace" font-size="14" fill="#abb2bf">);</text>
   
   <text x="90" y="250" font-family="monospace" font-size="14" fill="#c678dd">return</text>
